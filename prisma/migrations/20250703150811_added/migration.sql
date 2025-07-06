@@ -1,0 +1,4 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "token" DROP NOT NULL,
+ALTER COLUMN "isActive" DROP NOT NULL,
+ALTER COLUMN "activation_link" DROP NOT NULL;
